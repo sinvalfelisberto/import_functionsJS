@@ -7,3 +7,10 @@ function sleep(milliseconds) {
         }
     }
 }
+
+//how to implement:
+
+for (let i = 10; i > 0; i--) {
+    console.log(`${i}`)
+    sleep(1000) //one second === 1000 milliseconds --- setInterval/setTimeOut like...
+}
